@@ -14,7 +14,7 @@
                       <v-flex mb12>
                         <h2>Hello,</h2>
                         <v-spacer style="height:20px;"></v-spacer>
-                         <div id="subtit1">안녕하세요,f 김하연입니다.</div>
+                         <div id="subtit1">안녕하세요, 김하연입니다.</div>
                           <v-spacer style="height:20px;"></v-spacer>
                             <v-layout row wrap style="margin-right: -10px; margin-left: -0px;">
                               <v-flex mb6 class="flex1">
