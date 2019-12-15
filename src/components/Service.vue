@@ -60,7 +60,7 @@
               subtitle: '기획 및 프론트엔드 개발',
               cont: 'HTML / CSS / jQuery / Vue',
               image: 'con1.png',
-              url: 'http://www.naver.com'
+              url: 'http://www.daid.co.kr'
             },
             {
               title: 'Project',
