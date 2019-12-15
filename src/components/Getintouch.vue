@@ -63,6 +63,7 @@
     </v-card>
 </template>
 <script>
+
     export default {
         name: "Getintouch",
         data (){
@@ -75,7 +76,11 @@
                 right: null,
             }
         },
+       methods:{
+
+      }
     }
+
 </script>
 <style scoped>
 .mb-12{
