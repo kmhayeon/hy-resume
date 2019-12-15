@@ -41,7 +41,7 @@
         data (){
             return {
                 items: [
-                    {no: 1, day:'2019.02 - 2020.', title: 'DataRep.Up', subtitle: "플랫폼 기획팀 근무"},
+                    {no: 1, day:'2019.02 - 2020.', title: 'DataRep.Up', subtitle: "Data Platform팀 근무"},
                     {no: 2, day:'2019.11 - 2020.02', title: 'HIMEDIA COMPUTER', subtitle: "JavaScript / jQuery 수강"},
                     {no: 3, day:'2019.07 - 2019.09', title: 'HIMEDIA COMPUTER', subtitle: "HTML / CSS 수강"},
                 ],
