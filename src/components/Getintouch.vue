@@ -18,21 +18,21 @@
                         <v-layout wrap>
                             <v-flex sm6>
                                 <v-text-field class="txtfield"
-                                              style="padding-right: 10px;"
-                                              label="Your name"
-                                              outlined
-                                              rounded
-                                              dense
-                                ></v-text-field>
-                            </v-flex>
-                            <v-flex sm6>
-                                <v-text-field class="txtfield"
-                                              label="Email Address"
-                                              outlined
-                                              rounded
-                                              dense
-                                ></v-text-field>
-                            </v-flex>
+                                                     style="padding-right: 10px;"
+                                                     label="Your name"
+                                                     outlined
+                                                     rounded
+                                                     dense
+                        ></v-text-field>
+                    </v-flex>
+                    <v-flex sm6>
+                        <v-text-field class="txtfield"
+                                      label="Email Address"
+                                      outlined
+                                      rounded
+                                      dense
+                        ></v-text-field>
+                    </v-flex>
                         </v-layout>
                                 <v-text-field
                                     class="txtfield"
@@ -50,12 +50,14 @@
                                     rows="1"
                                     row-height="100"
                                 ></v-textarea>
-                                    <v-btn
+                                <v-btn
+                                        type="submit"
                                         id="btnsm"
                                         rounded
                                         color="#FF5959"
                                         dark
-                                    >Submit Message</v-btn>
+                                        @click="sendEmail"
+                                >Submit Message</v-btn>
                     </v-flex>
                 </v-layout>
             </v-form>
@@ -66,7 +68,7 @@
 
     export default {
         name: "Getintouch",
-        data (){
+        data() {
             return {
                 items: [
                     {title: 'Phone', sub: "010-2715-9304", icon: 'mdi-phone-outline'},
@@ -76,9 +78,6 @@
                 right: null,
             }
         },
-       methods:{
-
-      }
     }
 
 </script>
