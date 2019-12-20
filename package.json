@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.4.1",
+    "defaultable": "^0.7.2",
     "dns": "^0.2.2",
     "nodemailer": "^6.4.2",
     "nodemailer-smtp-pool": "^2.8.3",
@@ -38,7 +39,8 @@
     "vue-template-compiler": "^2.6.10",
     "vuetify-loader": "^1.3.1",
     "webpack": "^4.41.2",
-    "webpack-dev-server": "^3.2.0"
+    "webpack-dev-server": "^3.2.0",
+    "webpack-node-externals": "^1.7.2"
   },
   "eslintConfig": {
     "root": true,
