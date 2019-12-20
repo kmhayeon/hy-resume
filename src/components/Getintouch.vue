@@ -109,7 +109,7 @@
                         console.error(xhr.responseText);
                     }
                 };
-                xhr.open('POST', 'http://206.189.151.251:3000');
+                xhr.open('POST', 'http://206.189.151.251:3000/non-https');
                 xhr.send(formData); // 폼 데이터 객체 전송
                 /*var xhr = new XMLHttpRequest();
 
