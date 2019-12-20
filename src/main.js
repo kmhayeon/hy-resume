@@ -3,6 +3,7 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import vuescroll from 'vuescroll/dist/vuescroll-native';
 
+
 Vue.config.productionTip = false
 
 new Vue({

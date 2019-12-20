@@ -2,7 +2,7 @@
     <v-card class="mb-12 bigbox">
         <v-container mb12 style="position:relative">
             <div id="headline"><h3>Get in touch</h3></div>
-            <v-spacer style="height:70px;"></v-spacer>
+            <v-spacer style="height:70px;"/>
             <v-form>
                 <v-layout row>
                     <v-flex sm4>
@@ -11,7 +11,7 @@
                             <h3 style="font-size:17px;">
                                 <v-icon color="#FF5959" style="padding-right: 13px;">{{item.icon}} </v-icon>{{ item.title }}</h3>
                             <div class="imsub">{{item.sub}}</div>
-                            <v-spacer class="mb-6"></v-spacer>
+                            <v-spacer class="mb-6"/>
                         </div>
                     </v-flex>
                     <v-flex sm8>
@@ -23,7 +23,8 @@
                                                      outlined
                                                      rounded
                                                      dense
-                        ></v-text-field>
+                                              v-model="name"
+                        />
                     </v-flex>
                     <v-flex sm6>
                         <v-text-field class="txtfield"
@@ -31,7 +32,8 @@
                                       outlined
                                       rounded
                                       dense
-                        ></v-text-field>
+                                      v-model="email"
+                        />
                     </v-flex>
                         </v-layout>
                                 <v-text-field
@@ -40,7 +42,8 @@
                                     outlined
                                     rounded
                                     dense
-                                ></v-text-field>
+                                    v-model="sub">
+                                </v-text-field>
                                 <v-textarea
                                     class="txtfield"
                                     label="Message..."
@@ -49,14 +52,15 @@
                                     rounded
                                     rows="1"
                                     row-height="100"
-                                ></v-textarea>
+                                    v-model="msg"
+                                />
                                 <v-btn
                                         type="submit"
                                         id="btnsm"
                                         rounded
                                         color="#FF5959"
                                         dark
-                                        @click="sendEmail"
+                                        @click.prevent="sendMail"
                                 >Submit Message</v-btn>
                     </v-flex>
                 </v-layout>
@@ -65,7 +69,6 @@
     </v-card>
 </template>
 <script>
-
     export default {
         name: "Getintouch",
         data() {
@@ -76,10 +79,71 @@
                     {title: 'Location', sub: "Republic of Korea", icon: 'mdi-map-marker-outline'},
                 ],
                 right: null,
+                name: '',
+                email: '',
+                sub: '',
+                msg:''
             }
         },
-    }
+        methods: {
+            sendMail() {
+                const body = {
+                    'name': this.name,
+                    'email': this.email,
+                    'sub': this.sub,
+                    'msg' : this.msg,
+                }
+                console.log(body)
 
+
+                var xhr = new XMLHttpRequest();
+                var formData = new FormData();
+                formData.append('name', this.name);
+                formData.append('email', this.email);
+                formData.append('sub', this.sub);
+                formData.append('msg', this.msg);
+                xhr.onload = function() {
+                    if (xhr.status === 200 || xhr.status === 201) {
+                        console.log(xhr.responseText);
+                    } else {
+                        console.error(xhr.responseText);
+                    }
+                };
+                xhr.open('POST', 'http://206.189.151.251:3000');
+                xhr.send(formData); // 폼 데이터 객체 전송
+                /*var xhr = new XMLHttpRequest();
+
+                xhr.onload = function() {
+                    if (xhr.status === 200 || xhr.status === 201) {
+                        console.log(xhr.responseText);
+                    } else {
+                        console.error(xhr.responseText);
+                    }
+                };
+                xhr.open('POST', 'http://localhost:3000');
+                xhr.setRequestHeader('Content-Type', 'application/json'); // 컨텐츠타입을 json으로
+                xhr.send(JSON.stringify(body));// 데이터를 stringify해서 보냄*/
+
+
+
+
+              /*  var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() { // 요청에 대한 콜백
+                    if (xhr.readyState === xhr.DONE) { // 요청이 완료되면
+                        if (xhr.status === 200 || xhr.status === 201) {
+                            console.log('200');
+                        } else {
+                            console.error(xhr.responseText);
+                        }
+                    }
+                };
+                xhr.open('POST', 'http://localhost:3000'); // 메소드와 주소 설정
+                xhr.send(body); // 요청 전송
+                // xhr.abort(); // 전송된 요청 취소*/
+            }
+
+        }
+    }
 </script>
 <style scoped>
 .mb-12{
