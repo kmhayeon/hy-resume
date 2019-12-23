@@ -111,35 +111,12 @@
                 };
                 xhr.open('POST', 'https://www.hacoding.com/email');
                 xhr.send(formData); // 폼 데이터 객체 전송
-                /*var xhr = new XMLHttpRequest();
 
-                xhr.onload = function() {
-                    if (xhr.status === 200 || xhr.status === 201) {
-                        console.log(xhr.responseText);
-                    } else {
-                        console.error(xhr.responseText);
-                    }
-                };
-                xhr.open('POST', 'http://localhost:3000');
-                xhr.setRequestHeader('Content-Type', 'application/json'); // 컨텐츠타입을 json으로
-                xhr.send(JSON.stringify(body));// 데이터를 stringify해서 보냄*/
-
-
-
-
-              /*  var xhr = new XMLHttpRequest();
-                xhr.onreadystatechange = function() { // 요청에 대한 콜백
-                    if (xhr.readyState === xhr.DONE) { // 요청이 완료되면
-                        if (xhr.status === 200 || xhr.status === 201) {
-                            console.log('200');
-                        } else {
-                            console.error(xhr.responseText);
-                        }
-                    }
-                };
-                xhr.open('POST', 'http://localhost:3000'); // 메소드와 주소 설정
-                xhr.send(body); // 요청 전송
-                // xhr.abort(); // 전송된 요청 취소*/
+                alert('추후 연락 드리도록 하겠습니다')
+                this.name = ''
+                this.email = ''
+                this.sub = ''
+                this.msg = ''
             }
 
         }
