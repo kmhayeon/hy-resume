@@ -58,22 +58,22 @@
             {
               title: 'D.aid',
               subtitle: '기획 및 프론트엔드 개발',
-              cont: 'HTML / CSS / jQuery / Vue',
+              cont: 'HTML / CSS / Javascript / Vue',
               image: 'con1.png',
-              url: 'http://www.daid.co.kr'
+              url: 'https://drive.google.com/open?id=13h5nxIywueOUpQZskQ_WzxRbxOC9MlY4'
             },
             {
               title: 'Project',
               subtitle: '기획 및 프론트엔드 개발',
-              cont: 'HTML / CSS / jQuery / React',
+              cont: 'HTML / CSS / Javascript / React',
               image: 'con1.png',
               url: 'http://www.naver.com'
             },
             {
               title: 'Hacoding',
               subtitle: '기획 및 프론트엔드 개발',
-              cont: 'HTML / CSS / jQuery / Vue',
-              image: 'con1.png',
+              cont: 'HTML / CSS / Javascript / Vue',
+              image: 'con3.png',
               url: 'https://www.hacoding.com/'
             },
           ],
