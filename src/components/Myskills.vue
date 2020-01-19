@@ -23,6 +23,7 @@
             {no: 2, img:'css.png'},
             {no: 3, img:'js.png'},
             {no: 4, img:'vue.png'},
+            {no: 5, img:'react.png'},
           ],
         }
       }
