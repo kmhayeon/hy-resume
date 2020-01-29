@@ -67,7 +67,7 @@
               subtitle: '기획 및 프론트엔드 개발',
               cont: 'HTML / CSS / Javascript / React',
               image: 'con1.png',
-              url: 'http://www.naver.com'
+              url: 'https://www.hacoding.com/react'
             },
             {
               title: 'Hacoding',
