@@ -7,7 +7,7 @@
                         <h1>I'm Hayeon</h1>
                     </div>
                     <div id="two">
-                        안녕하세요.<p>Front-end Develop 김하연입니다.</p>
+                        안녕하세요.<p>신입 Front-end Develop 김하연입니다.</p>
                     </div>
                     <div class="btn">
                         <v-btn id="btn1"
@@ -89,7 +89,7 @@
     border-radius:50px;
     width:15px;
     height:15px;
-    left: 370px;
+    left: 376px;
 }
 #two{
     text-align: left;

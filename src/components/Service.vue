@@ -64,14 +64,14 @@
             },
             {
               title: 'Project',
-              subtitle: '기획 및 프론트엔드 개발',
+              subtitle: '디자인 시안 프론트엔드 개발',
               cont: 'HTML / CSS / Javascript / React',
               image: 'con2.png',
               url: 'https://www.hacoding.com/react'
             },
             {
               title: 'Hacoding',
-              subtitle: '기획 및 프론트엔드 개발',
+              subtitle: '디자인 시안 프론트엔드 개발',
               cont: 'HTML / CSS / Javascript / Vue',
               image: 'con3.png',
               url: 'https://www.hacoding.com/'

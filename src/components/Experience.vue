@@ -42,8 +42,8 @@
             return {
                 items: [
                     {no: 1, day:'2019.02 - 2020.02', title: 'DataRep.Up', subtitle: "Data & Platform팀 근무"},
-                    {no: 2, day:'2019.11 - 2020.02', title: 'HIMEDIA COMPUTER', subtitle: "JavaScript / jQuery 수강"},
-                    {no: 3, day:'2019.07 - 2019.09', title: 'HIMEDIA COMPUTER', subtitle: "HTML / CSS 수강"},
+                    {no: 2, day:'2018.04 - 2018.06', title: 'LUNA SOFT', subtitle: "플랫폼 기획팀 인턴"},
+                    {no: 3, day:'2014.03 - 2017.02', title: '계원예술대학교', subtitle: "디지털 미디어과 졸업"},
                 ],
                 right: null,
             }
