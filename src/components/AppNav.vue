@@ -105,7 +105,7 @@ export default {
   border-radius:50px;
   width:8px;
   height:8px;
-  right: 78px;
+  right: 76px;
   bottom: 36px;
 }
 #subtit{

@@ -89,7 +89,7 @@
     border-radius:50px;
     width:15px;
     height:15px;
-    left: 370px;
+    left: 376px;
 }
 #two{
     text-align: left;
