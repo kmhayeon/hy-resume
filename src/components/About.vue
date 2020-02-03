@@ -35,12 +35,12 @@
                             </v-layout>
                               <v-spacer style="height:20px;"></v-spacer>
                             <div>
-                              <v-btn id="btndc"
+                              <!--<v-btn id="btndc"
                                      rounded color="#FF5959"
                                      dark
                                      @click="downloadCV(1)"
                               >
-                                <v-icon class="icon">mdi-cloud-download</v-icon>Download CV</v-btn>
+                                <v-icon class="icon">mdi-cloud-download</v-icon>Download CV</v-btn>-->
                               <v-btn id="btnhm"
                                      rounded color="#4c67e4"
                                      dark
