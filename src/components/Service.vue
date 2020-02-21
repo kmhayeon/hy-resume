@@ -74,7 +74,7 @@
               subtitle: '디자인 시안 프론트엔드 개발',
               cont: 'HTML / CSS / Javascript / Vue',
               image: 'con3.png',
-              url: 'https://drive.google.com/open?id=1S5bSy-s8VLMW9UlcUbQ_Tg2xRDcMbdzL'
+              url: 'https://www.hacoding.com/'
             },
           ],
         }
