@@ -20,10 +20,10 @@
         return {
           items: [
             {no: 1, img:'html.png'},
-            {no: 2, img:'css.png'},
-            {no: 3, img:'js.png'},
-            {no: 4, img:'vue.png'},
-            {no: 5, img:'react.png'},
+            {no: 2, img:'js.png'},
+            {no: 3, img:'sass.png'},
+            {no: 4, img:'react.png'},
+            {no: 5, img:'vue.png'},
           ],
         }
       }
