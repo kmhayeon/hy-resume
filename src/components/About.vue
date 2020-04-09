@@ -41,12 +41,20 @@
                                      @click="downloadCV(1)"
                               >
                                 <v-icon class="icon">mdi-cloud-download</v-icon>Download CV</v-btn>-->
+                                <v-btn id="btnhm"
+                                       rounded color="#ff5959"
+                                       dark
+                                       @click="downloadCV(1)"
+                                >
+                                    <v-icon class="icon">fas fa-file</v-icon>Resume</v-btn>
+
                               <v-btn id="btnhm"
                                      rounded color="#4c67e4"
                                      dark
                                      @click="downloadCV(2)"
                               >
                                 <v-icon class="icon">fab fa-github</v-icon>git hub</v-btn>
+
                             </div>
                       </v-flex>
                     </v-layout>
@@ -61,7 +69,7 @@
       name: "About",
       data() {
         return {
-          url: 'https://drive.google.com/open?id=13v6L_HAvhWDx8ggsGhNsPlFzyUB3_FlC',
+          url: 'https://drive.google.com/open?id=1rmgI5t_ulXbGHUUiGE2QvZp0YIrs_wdi',
           gitHubUrl: 'https://github.com/kmhayeon?tab=repositories'
         }
       },
@@ -135,6 +143,7 @@
   width:120px;
   height:40px;
   font-size:12px;
+  margin-right: 10px;
 }
 .icon{
   color:#fff;
