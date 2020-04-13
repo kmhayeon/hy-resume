@@ -41,13 +41,6 @@
                                      @click="downloadCV(1)"
                               >
                                 <v-icon class="icon">mdi-cloud-download</v-icon>Download CV</v-btn>-->
-                                <v-btn id="btnhm"
-                                       rounded color="#ff5959"
-                                       dark
-                                       @click="downloadCV(1)"
-                                >
-                                    <v-icon class="icon">fas fa-file</v-icon>Resume</v-btn>
-
                               <v-btn id="btnhm"
                                      rounded color="#4c67e4"
                                      dark
