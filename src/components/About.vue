@@ -46,7 +46,10 @@
                                      dark
                                      @click="downloadCV(2)"
                               >
-                                <v-icon class="icon">fab fa-github</v-icon>git hub</v-btn>
+                                <v-icon class="icon">mdi-email-outline</v-icon>
+                                <a class="email" href="mailto:kmhayeon12@gmail.com">Hire me</a>
+                                <!--<v-icon class="icon">fab fa-github</v-icon>git hub-->
+                              </v-btn>
 
                             </div>
                       </v-flex>
@@ -63,7 +66,7 @@
       data() {
         return {
           url: 'https://drive.google.com/open?id=1rmgI5t_ulXbGHUUiGE2QvZp0YIrs_wdi',
-          gitHubUrl: 'https://github.com/kmhayeon?tab=repositories'
+          //gitHubUrl: 'https://github.com/kmhayeon?tab=repositories'
         }
       },
       methods: {
@@ -143,5 +146,10 @@
   font-size:16px;
   margin-right: 5px;
   margin-top:1px;
+}
+
+.email{
+  color: #FFFFFF;
+  text-decoration:none;
 }
 </style>

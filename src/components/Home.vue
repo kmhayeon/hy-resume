@@ -7,7 +7,7 @@
                         <h1>I'm Hayeon</h1>
                     </div>
                     <div id="two">
-                        안녕하세요.<p>신입 Frontend Develop 김하연입니다.</p>
+                        안녕하세요.<p>자유로운 사고와 풍부한 호기심을 가진 기획자 김하연입니다.</p>
                     </div>
                     <div class="btn">
                         <v-btn id="btn1"
@@ -23,9 +23,11 @@
                                color="#FFF"
                                dark
                                rounded
-                               @click.prevent="scrollAnimateTo('Contact')"
                         >
-                            <v-icon class="icon">mdi-email-outline</v-icon>Hire me
+
+                            <!--@click.prevent="scrollAnimateTo('Contact')"-->
+                            <v-icon class="icon">mdi-email-outline</v-icon>
+                            <a class="email" href="mailto:kmhayeon12@gmail.com">Hire me</a>
                         </v-btn>
                     </div>
                 </div>
@@ -41,7 +43,7 @@
             return {
                 items: [
                     {tit:'View Portfolio',href: 'Work'},
-                    {tit:'Hire me',href: 'Contact'},
+                   /* {tit:'Hire me',href: 'Contact'},*/
                 ],
             }
         },
@@ -120,5 +122,10 @@
     margin-top:1px;
     color:#fff;
     font-size:16px;
+}
+
+.email{
+  color: #FFFFFF;
+  text-decoration:none;
 }
 </style>

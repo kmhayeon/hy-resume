@@ -76,6 +76,27 @@
               image: 'con3.png',
               url: 'https://www.hacoding.com/'
             },
+            {
+              title: 'Hacoding',
+              subtitle: '디자인 시안 프론트엔드 개발',
+              cont: 'HTML / CSS / Javascript / Vue',
+              image: 'con3.png',
+              url: 'https://www.hacoding.com/'
+            },
+            {
+              title: 'Hacoding',
+              subtitle: '디자인 시안 프론트엔드 개발',
+              cont: 'HTML / CSS / Javascript / Vue',
+              image: 'con3.png',
+              url: 'https://www.hacoding.com/'
+            },
+            {
+              title: 'Hacoding',
+              subtitle: '디자인 시안 프론트엔드 개발',
+              cont: 'HTML / CSS / Javascript / Vue',
+              image: 'con3.png',
+              url: 'https://www.hacoding.com/'
+            },
           ],
         }
       },
@@ -90,7 +111,7 @@
 <style scoped>
 .mb-12{
     max-width:900px;
-    height:600px;
+    height:750px;
 }
 #headline{
     color: #000;

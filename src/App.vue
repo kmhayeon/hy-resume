@@ -12,9 +12,10 @@
                   <Home id="Home"/>
                   <About id="About"/>
                   <Experience id="Resume"/>
-                  <Myskills id="Myskils"/>
+                  <!--<Myskills id="Myskils"/>-->
                   <Service id="Work"/>
-                  <Getintouch id="Contact"/>
+                  <!--<Getintouch id="Contact"/>-->
+                  <Last id="Last"/>
                 </v-content>
               </div>
             </div>
@@ -29,9 +30,10 @@
   import Home from './components/Home';
   import About from './components/About' ;
   import Experience from './components/Experience';
-  import Myskills from './components/Myskills';
+  //import Myskills from './components/Myskills';
   import Service from './components/Service';
-  import Getintouch from './components/Getintouch';
+  //import Getintouch from './components/Getintouch';
+  import Last from "@/components/Last";
 
 
   export default {
@@ -41,9 +43,10 @@
     Home,
     About,
     Experience,
-    Myskills,
+    //Myskills,
     Service,
-    Getintouch,
+    //Getintouch,
+    Last
   }}
 </script>
 
@@ -62,7 +65,7 @@
   width: 900px;
   float: right;
 }
-#Home {
+#Home,#Last {
   position:relative;
   background-color: #5B72E9;
   border-radius:20px;
@@ -83,4 +86,5 @@
 #Myskils{
   background-color: #4c67e4;
 }
+
 </style>

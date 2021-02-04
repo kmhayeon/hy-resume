@@ -8,7 +8,7 @@
                  <v-list-item>
                      <v-list-item-content>
                          <v-list-item-title class="title" id="tit">HaYeon</v-list-item-title>
-                         <v-list-item-subtitle id="subtit">DEVELOPER</v-list-item-subtitle>
+                         <v-list-item-subtitle id="subtit">PLANNER</v-list-item-subtitle>
                         </v-list-item-content>
                  </v-list-item>
              <v-list id="nav"
@@ -43,7 +43,8 @@ export default {
         {title: 'About', icon: 'mdi-account-outline', href: 'About'},
         {title: 'Resume', icon: 'mdi-school-outline', href: 'Resume'},
         {title: 'Work', icon: 'mdi-layers-outline', href: 'Work'},
-        {title: 'Contact', icon: 'mdi-chat-outline',href: 'Contact'},
+        {title: 'Last', icon: 'mdi-layers-outline', href: 'Last'},
+        /*{title: 'Contact', icon: 'mdi-chat-outline',href: 'Contact'},*/
       ],
       right: null,
     }

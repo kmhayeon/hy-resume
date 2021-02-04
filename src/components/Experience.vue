@@ -41,9 +41,10 @@
         data (){
             return {
                 items: [
-                    {no: 1, day:'2019.02 - 2020.02', title: 'DataRep.Up', subtitle: "Data & Platform팀 근무"},
-                    {no: 2, day:'2018.04 - 2018.06', title: 'LUNA SOFT', subtitle: "플랫폼 기획팀 인턴"},
-                    {no: 3, day:'2014.03 - 2017.02', title: '계원예술대학', subtitle: "디지털 미디어과 졸업"},
+                    {no: 1, day:'2020.06 - 2021 - ', title: 'Reverse Lab', subtitle: "Development팀 근무"},
+                    {no: 2, day:'2019.02 - 2020.02', title: 'DataRep.Up', subtitle: "Data & Platform팀 근무"},
+                    {no: 3, day:'2018.04 - 2018.06', title: 'LUNA SOFT', subtitle: "플랫폼팀 인턴"},
+                    {no: 4, day:'2014.03 - 2017.02', title: '계원예술대학', subtitle: "디지털 미디어과 졸업"},
                 ],
                 right: null,
             }
@@ -55,7 +56,7 @@
 <style scoped>
 .mb-12{
     max-width:900px;
-    height:650px;
+    height:770px;
 }
 #headline{
     color: #000;
