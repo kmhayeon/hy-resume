@@ -56,46 +56,39 @@
         return {
           items: [
             {
-              title: 'D.aid',
-              subtitle: '기획 및 프론트엔드 개발',
+              title: 'D.aid 서비스',
+              subtitle: '기획 및 소개서/매뉴얼 제작',
               cont: 'HTML / CSS / Javascript / Vue',
-              image: 'con1.png',
-              url: 'https://drive.google.com/open?id=13h5nxIywueOUpQZskQ_WzxRbxOC9MlY4'
+              image: '01.png',
+              url: 'https://drive.google.com/file/d/12H8ONTRvwKPPzq8CTwDWfOpyUZTOaA0z/view?usp=sharing'
             },
             {
-              title: 'Project',
-              subtitle: '디자인 시안 프론트엔드 개발',
-              cont: 'HTML / CSS / Javascript / React',
-              image: 'con2.png',
-              url: 'https://www.hacoding.com/react'
+              title: '다독다독 앱 서비스',
+              subtitle: '퍼소나 분석 및 기획서 제작',
+              cont: '개인 프로젝트',
+              image: '02.png',
+              url: 'https://drive.google.com/file/d/1LIYl_tUPhT0gVSyPDUJAlwpQMNuIrPmK/view?usp=sharing'
             },
             {
-              title: 'Hacoding',
-              subtitle: '디자인 시안 프론트엔드 개발',
-              cont: 'HTML / CSS / Javascript / Vue',
-              image: 'con3.png',
-              url: 'https://www.hacoding.com/'
+              title: '네이버페이 기능 개선안',
+              subtitle: '개선안 기획서 제작',
+              cont: '개인 프로젝트',
+              image: '03.png',
+              url: 'https://drive.google.com/file/d/1utqaEpNKZ8wzXaJ9WbnAaEEuhEWGcdH3/view?usp=sharing'
             },
             {
-              title: 'Hacoding',
-              subtitle: '디자인 시안 프론트엔드 개발',
-              cont: 'HTML / CSS / Javascript / Vue',
-              image: 'con3.png',
-              url: 'https://www.hacoding.com/'
+              title: '옐로우버스 서비스',
+              subtitle: '프론트엔드 개발',
+              cont: 'HTML / Sass / React / Bootstrap',
+              image: '05.png',
+              url: 'https://drive.google.com/file/d/1OArp7tiz1N_x1d8YdTPf40sJFiCB9dWq/view?usp=sharing'
             },
             {
-              title: 'Hacoding',
-              subtitle: '디자인 시안 프론트엔드 개발',
-              cont: 'HTML / CSS / Javascript / Vue',
-              image: 'con3.png',
-              url: 'https://www.hacoding.com/'
-            },
-            {
-              title: 'Hacoding',
-              subtitle: '디자인 시안 프론트엔드 개발',
-              cont: 'HTML / CSS / Javascript / Vue',
-              image: 'con3.png',
-              url: 'https://www.hacoding.com/'
+              title: '상담톡 플로우 정리',
+              subtitle: '챗봇 플로우 정리',
+              cont: '인턴 프로젝트',
+              image: '04.png',
+              url: 'https://drive.google.com/file/d/1KussC4EDzLW38yYF2eXmEwDBlh3DKyhT/view?usp=sharing'
             },
           ],
         }
