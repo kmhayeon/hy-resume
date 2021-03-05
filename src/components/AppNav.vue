@@ -8,7 +8,7 @@
                  <v-list-item>
                      <v-list-item-content>
                          <v-list-item-title class="title" id="tit">HaYeon</v-list-item-title>
-                         <v-list-item-subtitle id="subtit">PLANNER</v-list-item-subtitle>
+
                         </v-list-item-content>
                  </v-list-item>
              <v-list id="nav"
